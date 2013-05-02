@@ -18,6 +18,7 @@
 		403203FB17328EF9007F6F18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 403203FA17328EF9007F6F18 /* Default-568h@2x.png */; };
 		403203FE17328EF9007F6F18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403203FD17328EF9007F6F18 /* ViewController.m */; };
 		4032040117328EF9007F6F18 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 403203FF17328EF9007F6F18 /* ViewController.xib */; };
+		403204081732900C007F6F18 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403204071732900C007F6F18 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		403203FC17328EF9007F6F18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		403203FD17328EF9007F6F18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4032040017328EF9007F6F18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		403204071732900C007F6F18 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403204081732900C007F6F18 /* CoreLocation.framework in Frameworks */,
 				403203E517328EF9007F6F18 /* UIKit.framework in Frameworks */,
 				403203E717328EF9007F6F18 /* Foundation.framework in Frameworks */,
 				403203E917328EF9007F6F18 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		403203E317328EF9007F6F18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				403204071732900C007F6F18 /* CoreLocation.framework */,
 				403203E417328EF9007F6F18 /* UIKit.framework */,
 				403203E617328EF9007F6F18 /* Foundation.framework */,
 				403203E817328EF9007F6F18 /* CoreGraphics.framework */,
